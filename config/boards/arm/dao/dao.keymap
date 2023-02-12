@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define HOST_OS 2
-#include "../../../../zmk-nodefree-config/helper.h"
-#include "../../../../zmk-nodefree-config/swedish.h"
+// #include "../../../../zmk-nodefree-config/helper.h"
+// #include "../../../../zmk-nodefree-config/swedish.dtsi"
 
 #define DEF 0
 #define LWR 1
@@ -26,7 +26,7 @@
 
                 default_layer {
                         bindings = <
-  &none   &mt LALT sv_oe     &kp Q   &kp W   &kp E         &kp R             &kp T         &kp Y         &kp U            &kp I         &kp O     &kp P      &mt RALT sv_ae        &none
+  &none   &mt LALT A     &kp Q   &kp W   &kp E         &kp R             &kp T         &kp Y         &kp U            &kp I         &kp O     &kp P      &mt RALT O        &none
           &mt LCTRL GRAVE   &kp A   &kp S   &kp D         &kp F             &kp G         &kp H         &kp J            &kp K         &kp L     &kp SEMI   &mt RCTRL SQT
           &kp BSLH    &kp Z   &kp X   &kp C         &kp V             &kp B         &kp N         &kp M            &kp COMMA     &kp DOT   &kp FSLH   &kp MINUS
                                             &lt LCTRL TAB   &mt LSHFT SPACE   &lt RSE RET   &lt LWR ESC   &mt RSHFT BSPC   &lt RGUI DEL
