@@ -35,7 +35,7 @@
                 lower_layer {
                         bindings = <
   &none   &kp LALT      &kp EXCL     &kp AT   &kp HASH        &kp DOLLAR     &kp PERCENT      &kp CARET      &kp AMPS     &kp ASTERISK        &kp PIPE    &none    &kp RALT           &none
-          &kp LCTRL   &none   &kp PLUS   &kp UNDER      &kp EQUAL   &kp MINUS   &kp LPAR   &kp RPAR   &kp LBKT      &kp RBKT   &kp BSLH   &kp CTRL
+          &kp LCTRL   &none   &kp PLUS   &kp UNDER      &kp EQUAL   &kp MINUS   &kp LPAR   &kp RPAR   &kp LBKT      &kp RBKT   &kp BSLH   &kp RCTRL
           &none  &none &none &none &none &none &kp LBRC &kp RBRC &kp TILDE &none &none &none
                                                &trans &trans     &lt ADJ RET      &lt ADJ ESC      &trans     &trans
                         >;
@@ -44,7 +44,7 @@
                 raise_layer {
                         bindings = <
   &none   &kp LALT   &kp KP_MULTIPLY      &kp KP_N7   &kp KP_N8   &kp KP_N9   &kp KP_PLUS   &kp KP_N0   &kp HOME   &none   &kp PG_UP   &none          &kp RALT           &none
-          &kp LCTRL   &kp KP_SLASH   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS         &kp LEFT  &kp DOWN &kp UP      &kp RIGHT   &none           &kp LCTRL
+          &kp LCTRL   &kp KP_SLASH   &kp KP_N4   &kp KP_N5   &kp KP_N6   &kp KP_MINUS         &kp LEFT  &kp DOWN &kp UP      &kp RIGHT   &none           &kp RCTRL
           &kp EQUAL         &kp KP_N0         &kp KP_N1   &kp KP_N2   &kp KP_N3   &kp KP_DOT     &none   &kp END    &none    &kp PG_DN   &none   &none
                                                           &trans      &trans      &lt ADJ RET    &lt ADJ ESC    &trans     &trans
                         >;
