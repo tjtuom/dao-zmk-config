@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define HOST_OS 2
-#include "helper.h"
-#include "swedish.dtsi"
+#include "../zmk-nodefree-config/helper.h"
+#include "../zmk-nodefree-config/swedish.h"
 
 #define DEF 0
 #define LWR 1
